@@ -1,0 +1,91 @@
+now: 2022-03-29 21:07:13
+Milk   cost -->  30
+Discount:= -0.000000
+GST Added:= +6.000000
+Grand total:=36.000000
+/*------------------------------------*/
+now: 2022-03-29 21:07:23
+Eggs   cost -->  10
+Fruit Juice   cost -->  20
+Butter   cost -->  20
+Discount:= -0.000000
+GST Added:= +10.000000
+Grand total:=60.000000
+/*------------------------------------*/
+now: 2022-03-29 21:07:55
+Milk   cost -->  30
+Milk   cost -->  30
+Milk   cost -->  30
+Milk   cost -->  30
+Discount:= -12.000000
+GST Added:= +21.600000
+Grand total:=129.600000
+/*------------------------------------*/
+now: 2022-03-29 21:08:17
+Milk   cost -->  30
+Butter   cost -->  20
+Butter   cost -->  20
+Bread   cost -->  25
+Milk   cost -->  30
+Discount:= -12.500000
+GST Added:= +22.500000
+Grand total:=135.000000
+/*------------------------------------*/
+now: 2022-03-30 19:26:52
+Milk   cost -->  30
+Eggs   cost -->  10
+Tomato   cost -->  5
+Bread   cost -->  25
+Milk   cost -->  30
+Discount:= -10.000000
+GST Added:= +18.000000
+Grand total:=108.000000
+/*------------------------------------*/
+now: 2022-03-30 19:31:10
+Milk   cost -->  30
+Milk   cost -->  30
+Eggs   cost -->  10
+Bread   cost -->  25
+Butter   cost -->  20
+Discount:= -11.500000
+GST Added:= +20.700000
+Grand total:=124.200000
+/*------------------------------------*/
+now: 2022-03-30 19:41:35
+Tomato   cost -->  5
+Butter   cost -->  20
+Fruit Juice   cost -->  20
+Discount:= -0.000000
+GST Added:= +9.000000
+Grand total:=54.000000
+/*------------------------------------*/
+now: 2022-03-30 19:51:15
+Milk   cost -->  30
+Discount:= -0.000000
+GST Added:= +6.000000
+Grand total:=36.000000
+/*------------------------------------*/
+now: 2022-03-30 19:53:20
+Eggs   cost -->  10
+Discount:= -0.000000
+GST Added:= +2.000000
+Grand total:=12.000000
+/*------------------------------------*/
+now: 2022-03-30 20:01:14
+Milk   cost -->  30
+Discount:= -0.000000
+GST Added:= +6.000000
+Grand total:=36.000000
+/*------------------------------------*/
+now: 2022-03-30 20:02:21
+Butter   cost -->  20
+Discount:= -0.000000
+GST Added:= +4.000000
+Grand total:=24.000000
+/*------------------------------------*/
+now: 2022-03-30 20:05:45
+Butter   cost -->  20
+Discount:= -0.000000
+GST Added:= +4.000000
+Grand total:=24.000000
+/*------------------------------------*/

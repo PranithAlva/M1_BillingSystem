@@ -1,0 +1,13 @@
+
+Milk
+30
+Butter
+20
+Eggs
+10
+Bread
+25
+Fruit Juice
+20
+Tomato
+5

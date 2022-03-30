@@ -1,20 +1,72 @@
-#include<unity.h>
+#include <stdio.h>
+#include "unity.h"
+#include "header.h"
 
-extern  void test_add_integer();
 
 void setUp(void)
 {
 
 }
-
+ 
 void tearDown(void)
 {
 
 }
 
+void automated_1()
+{
+    double sum=0;
+    TEST_ASSERT_EQUAL(0,discount(&sum));
+    sum=100.01;
+    TEST_ASSERT_EQUAL(0.1,discount(&sum));
+    sum=500.89;
+    TEST_ASSERT_EQUAL(0.2,discount(&sum));
+    sum=1000.25;
+    TEST_ASSERT_EQUAL(0.32,discount(&sum));
+    sum=2000000.99;
+    TEST_ASSERT_EQUAL(0.45,discount(&sum));
+}
+
+void automated_2()
+{
+    double gst=100;
+    TEST_ASSERT_EQUAL(20,claculate_gst(&gst));
+    gst=200;
+    TEST_ASSERT_EQUAL(40,claculate_gst(&gst));
+    gst=124;
+    TEST_ASSERT_EQUAL(24.8,claculate_gst(&gst));
+    gst=1000;
+    TEST_ASSERT_EQUAL(100,claculate_gst(&gst));
+    gst=50000.90;
+    TEST_ASSERT_EQUAL(100,claculate_gst(&gst));
+    gst=67900.999;
+    TEST_ASSERT_EQUAL(100,claculate_gst(&gst));
+
+
+}
+
+void automated_3()
+{
+    TEST_ASSERT_EQUAL(1,check(1));
+    TEST_ASSERT_EQUAL(2,check(2));
+    TEST_ASSERT_EQUAL(3,check(3));
+    TEST_ASSERT_EQUAL(4,check(4));
+    TEST_ASSERT_EQUAL(0,check(0));
+    TEST_ASSERT_EQUAL(0,check(-10));
+    TEST_ASSERT_EQUAL(0,check(227));
+    TEST_ASSERT_EQUAL(0,check(29));
+    TEST_ASSERT_EQUAL(0,check(-1));
+    TEST_ASSERT_EQUAL(0,check(1000));
+}
+
 int main()
 {
-    UnityBegin(NULL);
-    RUN_TEST(test_add_integer);
-    return (UnityEnd());
+   UnityBegin(NULL);
+   RUN_TEST(automated_1);
+   RUN_TEST(automated_2);
+   RUN_TEST(automated_3);
+   return(UnityEnd()); 
+   
 }
+
+
