@@ -31,6 +31,8 @@ Store owners or organisation heads will be able to store data into their private
 
 #  Detail requirements 
 ###  High Level Requirements: ### 
+ LR_ID | Description
+ ------ | -------------------------------------------------------------------
 HR_01 | To write c program for multiplatform
 
 HR_02 | To authorise login
@@ -42,9 +44,12 @@ HR_04 | To check revenue
 HR_05 | To compute the bill for each customer
 
 ### Low Level Requirements: ### 
+HR_ID | LR_ID | Description
+-------| ------ | -------------------------------------------------------------------
 HR_01 | LR_01 | The application should be able to execute in any of the operating system.
 HR_01 | LR_02 | compile the program with gcc
 HR_01 | LR_03 | Generate corrosponding build file
+
 
 HR_02 | LR_04  | Protect the system with the help of password
 HR_02 | LR_04 | Maintain login credentials in a file named admin
