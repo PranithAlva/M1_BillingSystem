@@ -3,6 +3,7 @@
 #include<stdlib.h>
 #include<time.h>
 #include "header.h"
+#include "func.h"
 
 void bill()
 {

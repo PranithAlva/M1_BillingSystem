@@ -11,3 +11,5 @@ Fruit Juice
 20
 Tomato
 5
+Mango
+50
