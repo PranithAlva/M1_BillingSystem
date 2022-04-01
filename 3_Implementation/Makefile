@@ -1,5 +1,5 @@
 Build:
-	gcc code.c -o output
+	gcc test.c func.h header.h Unity/unity.c -IUnity
 
 Run:
-	./output
+	./a.out

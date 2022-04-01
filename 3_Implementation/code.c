@@ -10,7 +10,7 @@ void bill()
     while ( getchar() != '\n' );
     FILE *ptr;
     char str[50];
-    ptr = fopen("stocks.txt","r");
+    ptr = fopen("Files/stocks.txt","r");
     if(ptr==NULL)
     {
         printf("Error");
@@ -19,7 +19,7 @@ void bill()
     double sum=0;
     int add=1;
     FILE *fptr;
-    fptr=fopen("Bill.txt","a+");
+    fptr=fopen("Files/Bill.txt","a+");
     if(fptr==NULL)
     {
         printf("Error");
@@ -100,7 +100,7 @@ int main()
         count--;
         if(count==0)
         {
-            printf("To many wrong attempts!!!\n");
+            printf("Too many wrong attempts!!! :(\n");
             exit(0);
         }
     
