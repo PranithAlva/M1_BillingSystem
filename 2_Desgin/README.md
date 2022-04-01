@@ -1,12 +1,12 @@
-# Low Level #
-### Structural Diagram ###
+# Structural Diagrams #
+### Low level ###
  ![Er_diadgram](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/er.png)
-### Behavioural diagram ### 
-![use_case](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/sequence.png)
-
-
-# High Level #
-### Structural Diagram ###
+### High Level ### 
  ![Component_diagram](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/component.png)
-### Behavioural Diagram ###
+
+# Behavioural Diagrams #
+### Low Level ###
+![use_case](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/sequence.png)
+### High Level ###
  ![Flowchart](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/flowchart.png)
+
