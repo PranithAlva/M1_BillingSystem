@@ -28,7 +28,8 @@ wherever each transaction is acknowledged by an bill
 Store owners or organisation heads will be able to store data into their private systems which is protected from unauthorised access and rest of the process is digitalised.
 
 # SWOT #
-
+ ![SWOT Analysis](http://via.placeholder.com/200x150 "Title is optional")
+ 
 #  Detail requirements 
 ###  High Level Requirements: ### 
  LR_ID | Description
