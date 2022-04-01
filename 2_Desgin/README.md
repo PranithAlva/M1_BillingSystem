@@ -1,11 +1,11 @@
 # Structural Diagrams #
 ### Er Diagaram ###
- ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+ ![Er_diadgram](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/er.png)
 ### Component Diagram ###
- ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+ ![Component_diagram](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/component.png)
 
 #Behavioral Diagrams #
 ### Flowchart ###
- ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+ ![Flowchart](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/flowchart.png)
 ### Use case diagram ### 
-![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+![use_case](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/sequence>png)
