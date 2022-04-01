@@ -6,7 +6,7 @@
 
 
 # High Level #
-### Behavioural Diagram ###
+### Structural Diagram ###
  ![Component_diagram](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/component.png)
-### Structural Diagram###
+### Behavioural Diagram ###
  ![Flowchart](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/flowchart.png)
