@@ -34,13 +34,9 @@ Store owners or organisation heads will be able to store data into their private
  LR_ID | Description
  ------ | -------------------------------------------------------------------
 HR_01 | To write c program for multiplatform
-
 HR_02 | To authorise login
-
 HR_03 | To  add new products and its price
-
 HR_04 | To check revenue
-
 HR_05 | To compute the bill for each customer
 
 ### Low Level Requirements: ### 
@@ -49,18 +45,13 @@ HR_ID | LR_ID | Description
 HR_01 | LR_01 | The application should be able to execute in any of the operating system.
 HR_01 | LR_02 | compile the program with gcc
 HR_01 | LR_03 | Generate corrosponding build file
-
-
 HR_02 | LR_04  | Protect the system with the help of password
 HR_02 | LR_04 | Maintain login credentials in a file named admin
-
 HR_03 | LR_07 | Maintain a file that contains product and its price
 HR_03 | LR_08  | Enable adding new items to this file
 HR_03 | LR_09  | Check the product if its already added
-
 HR_04 | LR_10 | Generate a file to hold the total sum from all transactions
 HR_04  | LR_11 | At each stage add the grand total to this file
-
 HR_05 | LR_12 | Add date to the bill
 HR_05 | LR_13 | Allow addition of items from the stocks file
 HR_05 | LR_14 | Calculate grand total along with GST
