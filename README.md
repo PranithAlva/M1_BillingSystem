@@ -20,4 +20,4 @@ Build on linux - [![CI - Linux](https://github.com/PranithAlva/M1_BillingSystem/
 |`3_Implementation`| Contains the source code of the project|
 |`4_TestplanandOutput`| Contains the test plan|
 |`5_Report`| Complete project report|
-|`6_Vedios`| contains images |
+|`6_Vedios`| contains vedios |
