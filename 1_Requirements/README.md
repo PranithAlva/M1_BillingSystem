@@ -28,8 +28,18 @@ wherever each transaction is acknowledged by an bill
 Store owners or organisation heads will be able to store data into their private systems which is protected from unauthorised access and rest of the process is digitalised.
 
 # SWOT #
- ![SWOT Analysis](https://github.com/PranithAlva/M1_BillingSystem/blob/main/images/SWOT.jpg)
+ ### STRENGTHS ###
+ A easy and user friendly product reduces human involment and reduces the constraint of space and storage. Plus easy benifts to search and retrive the files.
  
+ ### Weakness ###
+ Currently the application is static and there room for addition of plenty of other new featuers
+ 
+ ### Oppurtunities ###
+ Can help small to big vendors effictively store records to improve their service. And using this it easy for them to generate proofs for tax they have to pay.
+ 
+ ### Risk ###
+Various competatiors in market. Competitors have superior access to channels of distribution
+
 #  Detail requirements 
 ###  High Level Requirements: ### 
  LR_ID | Description
