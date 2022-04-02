@@ -7,11 +7,13 @@ on:
     branches: [ master ]
 
 jobs:
-  linux:
+  build:
+  
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v3
       - name: Install
-      - run: sudo apt-get install libopenblas-dev liblapack-dev valgrind
+        run: sudo apt-get install libopenblas-dev liblapack-dev valgrind
       - name: Run
-      - run: valgrind -C 3_Implementation/source.out
+        run: valgrind -C 3_Implementation/source.out
