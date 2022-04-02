@@ -9,7 +9,7 @@ void update(double param)
 {   
     FILE *ptr;
     double buffer=0;
-    ptr = fopen("Files/account","r+");
+    ptr = fopen("src/account","r+");
     if(ptr==NULL)
     {
         printf("Error");
@@ -18,7 +18,7 @@ void update(double param)
     fscanf (ptr, "%lf", &buffer );
     param+=buffer;
     fclose(ptr);
-    ptr = fopen("Files/account","w");
+    ptr = fopen("src/account","w");
     char buf[50];
     sprintf(buf,"%f",param);
     fputs(buf,ptr);
@@ -27,7 +27,7 @@ void update(double param)
 int verify(char *param_1)
 {
     FILE *ptr;
-    ptr = fopen("Files//log.txt","r");
+    ptr = fopen("src/log.txt","r");
     if(ptr==NULL)
     {
         printf("Error");
@@ -48,7 +48,7 @@ void add_goods()
 {
     while ( getchar() != '\n' );
     FILE *ptr;
-    ptr=fopen("Files/stocks.txt","a+");
+    ptr=fopen("src/stocks.txt","a+");
     if(ptr==NULL)
     {
         printf("ERROR\n");
@@ -79,7 +79,7 @@ void add_goods()
 void sales()
 {
     FILE *ptr;
-    ptr = fopen("Files/account","r");
+    ptr = fopen("src/account","r");
     if(ptr==NULL)
     {
         printf("Error");
@@ -96,7 +96,7 @@ void password()
 {
     while ( getchar() != '\n' );
     FILE *ptr;
-    ptr = fopen("Files/log.txt","w");
+    ptr = fopen("src/log.txt","w");
     if(ptr==NULL)
     {
         printf("Error\n");

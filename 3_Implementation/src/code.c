@@ -2,16 +2,15 @@
 #include<string.h>
 #include<stdlib.h>
 #include<time.h>
-#include "func.h"
 #include "header.h"
-
+#include "func.h"
 
 void bill()
 {
     while ( getchar() != '\n' );
     FILE *ptr;
     char str[50];
-    ptr = fopen("src/stocks.txt","r");
+    ptr = fopen("stocks.txt","r");
     if(ptr==NULL)
     {
         printf("Error");
@@ -20,7 +19,7 @@ void bill()
     double sum=0;
     int add=1;
     FILE *fptr;
-    fptr=fopen("src/Bill.txt","a+");
+    fptr=fopen("Bill.txt","a+");
     if(fptr==NULL)
     {
         printf("Error");
