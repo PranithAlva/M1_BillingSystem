@@ -1,13 +1,12 @@
 Build:code test
-code:code.out
-test:test.out
-code.out:
+code:codeb
+test:testb
+codeb:
 	gcc code.c inc/func.h inc/header.h -Iinc
 
-test.out:
+testb:
 	gcc test/test.c  inc/header.h unity/unity.c -Iinc -Iunity -o test.out
 
-clean: clean-code clean-test
     
 run: run-code run-test
 run-code:
